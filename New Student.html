@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8"/>
+<title>New Student</title>
+<link href="styles2.css" rel="stylesheet" type="text/css">
+<script src="jquery-3.6.1.js"></script>
+<script src="NewStudent.js"></script>
+</head>
+
+<body>
+<a href="Home.html">⬅️Go Back</a>
+<p>&nbsp;</p>
+<h1>Enroll a New Student</h1>
+<hr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form id="form1" name="form1" method="post">
+  <p>
+    <label for="textfield">First Name:</label>
+    <input name="fname" type="text" required="required" id="fname">
+  </p>
+  <p>
+    <label for="textfield2">Last Name:</label>
+    <input name="lname" type="text" required="required" id="lname">
+  </p>
+  <p>
+    <label for="textfield3">Date of Birth:</label>
+    <input name="dob" type="date" required="required" id="dob">
+  </p>
+  <p>
+    <label for="textfield4">Email:</label>
+    <input name="mail" type="email" required="required" id="mail">
+  </p>
+  <p>
+    <label for="textfield5">Student ID:</label>
+    <input name="SID" type="text" required="required" id="SID">
+  </p>
+  <p>
+    <label for="lstcenter">Registering Center:</label>
+    <select name="lstcenter" id="lstcenter">
+		<option value="Select">----------</option>
+		<option value="Colombo">Colombo</option>
+		<option value="Kandy">Kandy</option>
+		<option value="Jaffna">Jaffna</option>
+    </select>
+  </p>
+  <p>Registering Semester:
+    <select name="lstsem" id="lstsem">
+		<option value="Select">--</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+    </select>
+  </p>
+  <p>
+    <label for="textfield6">CGPA:</label>
+    <input name="number" type="text" required="required" id="number">
+  </p>
+  <p>
+    <input name="submit" type="submit" id="submit" value="Submit">
+  </p>
+</form>
+<p>&nbsp;</p>
+</body>
+</html>

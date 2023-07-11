@@ -1,0 +1,46 @@
+@charset "utf-8";
+body{
+	background-image:url("background.jpg");
+}
+h1{
+	color: black;
+	align-content: center;
+	text-align: center;
+	font-size: 300%;
+}
+hr{
+	border:outset;
+	border-color: #20C484;
+}
+p{
+	text-align: center;
+}
+p1{
+	text-align: center;
+}
+p2{
+	text-align: center;
+	font-size: 200%;
+}
+table{
+	align-self: center;
+}
+td{
+	align-content: center;
+	text-align: center;
+	font-size: 170%;
+	font-family:flavors;
+}a{
+	color:black;
+	text-decoration-line: none;
+}
+a:hover{
+	color: aliceblue;
+	text-decoration: underline;
+}
+#flip{
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}

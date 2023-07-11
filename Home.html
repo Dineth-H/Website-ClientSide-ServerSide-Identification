@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Student Management System</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<script src="jquery-3.6.1.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#select").slideToggle("fast");
+  });
+});
+</script>
+	
+<script>
+$(document).ready(function(){
+    $("body").on({
+        mouseenter: function(){
+            $(this).css("background-color", "#B9F4D5");
+        },  
+       
+        mouseleave: function(){
+            $(this).css("background-color", "white");
+			$("p").css("color", "black");
+			$("h1").css("color", "black");
+			$("img").attr("src","Home Page Image 2.jpg");
+        },
+       	
+        dblclick: function(){
+            $(this).css("background-color", "Black");
+			$("p").css("color", "white");
+			$("h1").css("color", "white");
+			$("img").attr("src",'Picture 2.jpg');
+        }
+    });
+});
+</script>
+
+</head>
+
+<body>
+<h1>Student Management Portal</h1>
+<hr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form id="form1" name="form1" method="post">
+  <p>
+    <p id="welcome">Welcome to the student information management portal! You can select what you want to do with our proffessional data retrieval system below.</p>
+  </p>
+  <p>&nbsp;</p>
+  <p>
+    <div id="flip" align="center"><p2>Click Here to see Management Options</p2></div>
+  </p>
+  <table id="select" width="1452" height="148" border="1">
+    <tbody>
+      <tr>
+        <td width="267" height="142" style="background-color: #20C484"><a href="New Student.html">Enroll a New Student</a></td>
+        <td width="267" style="background-color: #20C484"><a href="Find Student.html">Find Student Records</a></td>
+		  <td width="267" style="background-color: #20C484"><a href="Update Student.html">Update Student Records</a></td>
+        <td width="267" style="background-color: #20C484"><a href="Remove Student.html">Remove a Student</a></td>
+        <td width="350" style="background-color: #20C484"><a href="Show All Students.html">View all Registered Students</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>&nbsp;	</p>
+  <p>&nbsp;</p>
+</form>
+<p>&nbsp;	<img id="img1" src="Home Page Image 2.jpg" width="650" height="400" alt=""/></p>
+<p>&nbsp;</p>
+<p>Designed by D H Pussewala® - IT21717086</p>
+</body>
+</html>
